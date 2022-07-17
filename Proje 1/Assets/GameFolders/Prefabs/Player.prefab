@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: 659503401347230247}
   - component: {fileID: 499710940892890010}
   - component: {fileID: 6194679032225418104}
+  - component: {fileID: 4885503134291939219}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -174,6 +175,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 56
   m_CollisionDetection: 1
+--- !u!114 &4885503134291939219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2198047716079499791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48d786aadc4fb0847b2cda9fdfbee1c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxFuel: 100
+  _currentFuel: 0
+  _particle: {fileID: 211701120764220372}
 --- !u!1 &2982314615918452470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,5 +1051,10 @@ PrefabInstance:
 --- !u!4 &211701120745870994 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 1c20c7996d683754db1f0f62a361952c, type: 3}
+  m_PrefabInstance: {fileID: 211701120745737238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &211701120764220372 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 19800002, guid: 1c20c7996d683754db1f0f62a361952c, type: 3}
   m_PrefabInstance: {fileID: 211701120745737238}
   m_PrefabAsset: {fileID: 0}
